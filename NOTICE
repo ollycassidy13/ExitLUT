@@ -1,0 +1,40 @@
+ExitLUT
+Copyright (c) 2026 Oliver Cassidy, Marta Andronic and George A. Constantinides
+
+This repository is licensed under the Apache License, Version 2.0 (see LICENSE),
+except ATHEENA-ExitLUT/optimiser/, which is licensed under the GNU General
+Public License, Version 3 (see ATHEENA-ExitLUT/optimiser/LICENSE).
+
+It includes or is derived from the following third-party work:
+
+LogicNets
+  Copyright (C) 2021 Xilinx, Inc.
+  Licensed under the Apache License, Version 2.0.
+  https://github.com/Xilinx/logicnets
+  Basis of NeuraLUT-Assemble and therefore of ATHEENA-ExitLUT/ExitLUT-Predictor.
+
+NeuraLUT / NeuraLUT-Assemble
+  Portions Copyright (c) 2021, Xilinx (see LICENSE.txt in that repository)
+  Licensed under the Apache License, Version 2.0.
+  https://github.com/MartaAndronic/NeuraLUT
+  ATHEENA-ExitLUT/ExitLUT-Predictor is a derivative of this work. Original
+  license and copyright headers are retained in the source files, and the
+  original license file is kept at ATHEENA-ExitLUT/ExitLUT-Predictor/LICENSE.txt.
+
+ATHEENA / fpgaConvNet optimiser
+  Copyright (c) Benjamin Biggs, Christos-Savvas Bouganis, George A. Constantinides;
+  fpgaConvNet optimiser by Alex Montgomerie.
+  Licensed under the GNU General Public License, Version 3.
+  https://github.com/biggsbenjamin/ATHEENA
+  https://github.com/AlexMontgomerie/fpgaconvnet-optimiser
+  ATHEENA-ExitLUT/optimiser is a modified copy of this work and remains under
+  GPL-3.0 (see ATHEENA-ExitLUT/optimiser/LICENSE), including our additions to
+  it (the ExitLUT exit-decision module and layer, recalibrated resource
+  models and coefficients, and parser/dev_script changes; see
+  ATHEENA-ExitLUT/optimiser/README.md). It is a separate program
+  from the rest of this repository, which does not import or link against it.
+
+Modifications and additional functionality
+  Copyright (c) 2026 Oliver Cassidy, Marta Andronic and George A. Constantinides
+
+Files carrying their own copyright or license headers remain under those terms.

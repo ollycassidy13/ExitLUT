@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+build/
+
+# Run outputs (regenerate with ATHEENA-ExitLUT/run.sh)
+wandb/
+ATHEENA-ExitLUT/data/
+ATHEENA-ExitLUT/softmaxes/
+**/verilator/
